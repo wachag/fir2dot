@@ -10,3 +10,5 @@ Usage in sbt:
 runMain Main design.fir
 
 where design.fir is the generated FIRRTL for your Chisel hardware.
+
+The program will generate a .dot file for each module in the .fir description. Afterwards you can use Graphviz to lay it out. 
